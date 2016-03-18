@@ -1,0 +1,31 @@
+.navbar-header img {
+    height: 44px;
+    margin-top: 4px;
+}
+
+#contact-us .contact-wrapper {
+    background-color:rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-bottom: 40px;
+    min-height:200px;
+}
+
+#contact-us .contact-wrapper h3 {
+    color:rgb(40, 141, 203);
+}
+
+#contact-us .social-below {
+    display: block;
+    margin-top: 5px;
+}
+
+.translucent-back {
+    background-color:rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;    
+}
