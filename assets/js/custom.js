@@ -114,7 +114,7 @@ $(document).ready(function () {
 
     $(".navbar-collapse li").on('click', function (e) {
         $('.btn-navbar').click(); //bootstrap 2.x
-        $('.navbar-toggle').click(); //bootstrap 3.x
+        $('.navbar-collapse').collapse('hide'); //bootstrap 3.x
     });
 
 });
