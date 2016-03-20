@@ -29,3 +29,51 @@
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;    
 }
+
+.team-wrapper:hover {
+    transform: none;
+}
+
+@media(min-width:767px){
+    .team-wrapper:hover {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+}
+
+.team-inner {
+    background-color: black;
+    -webkit-background-size: contain !important;
+}
+
+.team-wrapper .description {
+    background-color: rgba(0,0,0,0.3);
+}
+
+.section:not(:last-of-type) {
+    min-height: 100vh;
+}
+
+.team-wrapper > .team-inner > a {
+    position: relative;
+    text-align: center;
+}
+
+.team-wrapper > .team-inner > .twitter-icon {
+    color: rgb(40, 141, 203);
+}
+
+.team-wrapper > .team-inner > .facebook-icon {
+    color: rgb(70,98,158);
+}
+
+.team-wrapper > .team-inner > .twitter-icon:hover {
+    background-color: rgb(40, 141, 203);
+}
+
+.team-wrapper > .team-inner > .facebook-icon:hover {
+    background-color: rgb(70,98,158);
+}
