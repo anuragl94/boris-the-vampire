@@ -47,6 +47,7 @@
 .team-inner {
     background-color: black;
     -webkit-background-size: contain !important;
+    background-repeat: no-repeat;
 }
 
 .team-wrapper .description {
